@@ -1,6 +1,6 @@
 # scrape-linkedin-rainking-duckduckgo
 
-## How to install Node.js binaries on Windows 7 
+## How to install Node.js binaries on Windows 
 
 Go [here](https://nodejs.org/en/download/) to download the Windows Binary (.zip) for 64-bit
 
