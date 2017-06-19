@@ -1,12 +1,30 @@
 # scrape-linkedin-rainking-duckduckgo
 
-## How to install Node.js without admin rights
-http://abdelraoof.com/blog/2014/11/11/install-nodejs-without-admin-rights
-https://stackoverflow.com/questions/37029089/how-to-install-nodejs-lts-on-windows-as-a-local-user-without-admin-rights
-https://docs.npmjs.com/getting-started/installing-node
+#How to install Node.js on Windows 7 without admin rights
+
+Go [here](https://nodejs.org/en/download/) to download the Windows Binary (.zip) for 64-bit
+
+Unzip file and save into a directory where it will not get deleted (for example: `C:\Users\eli\Downloads\node-v6.11.0-win-x64'` )
+
+Click windows start menu and search 'path' in the 'Search program and files input box' 
+
+Select 'Edit enviromental variables for account'
+
+Select 'PATH' and click edit
+
+At the end of the variable value input box add a semi colon and a percent sign, then copy and past the directory location of the unzip file  the follow it wth a percent sign. (for example: `;%C:\Users\eli\Downloads\node-v6.11.0-win-x64%'` )
+
+To test if you have successfully added node to you PATH variable open owershell or your perfered command line and run
+
+`node -v` 
+
+This should return your current version of node.
 
 ## How to install dependencies
-`cd ~\node_modules`
+
+Using powershell or another command line ui `cd` into the directory you added to your path then `cd node_modules` (for example: `cd \Users\eli\Downloads\node-v6.11.0-win-x64\node_modules` )
+
+Then run each of these commands:
 
 `npm install vo`
 
@@ -51,6 +69,8 @@ exports.googleReportQuery = function(){
 ```
 
 ## How to run
-`cd ~\scrape-linkedin-rainking-duckduckgo`
+`cd` the directory where sdr-scrap is located  (for example: `cd \Users\eli\Downloads\sdr-scrap`
+
+Then run the command
 
 `node scrape.js`
