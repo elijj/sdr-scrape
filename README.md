@@ -1,10 +1,10 @@
 # scrape-linkedin-rainking-duckduckgo
 
-#How to install Node.js on Windows 7 without admin rights
+## How to install Node.js binaries on Windows 7 
 
 Go [here](https://nodejs.org/en/download/) to download the Windows Binary (.zip) for 64-bit
 
-Unzip file and save into a directory where it will not get deleted (for example: `C:\Users\eli\Downloads\node-v6.11.0-win-x64'` )
+Unzip file and save into a directory where it will not get deleted (for example: `C:\Users\eli\Downloads\node-v6.11.0-win-x64'`)
 
 Click windows start menu and search 'path' in the 'Search program and files input box' 
 
@@ -69,7 +69,7 @@ exports.googleReportQuery = function(){
 ```
 
 ## How to run
-`cd` the directory where sdr-scrap is located  (for example: `cd \Users\eli\Downloads\sdr-scrap`
+`cd` the directory where sdr-scrap is located  (for example: `cd \Users\eli\Downloads\sdr-scrap`)
 
 Then run the command
 
