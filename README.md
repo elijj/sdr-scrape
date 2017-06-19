@@ -14,7 +14,7 @@ Select 'PATH' and click edit
 
 At the end of the variable value input box add a semi colon and a percent sign, then copy and past the directory location of the unzip file  the follow it wth a percent sign. (for example: `;%C:\Users\eli\Downloads\node-v6.11.0-win-x64%'` )
 
-To test if you have successfully added node to you PATH variable open owershell or your perfered command line and run
+To test if you have successfully added node to your PATH variable open owershell or your perfered command line and run
 
 `node -v` 
 
